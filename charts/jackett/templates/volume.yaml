@@ -1,0 +1,18 @@
+{{/*---*/}}
+{{/*kind: PersistentVolumeClaim*/}}
+{{/*apiVersion: v1*/}}
+{{/*metadata:*/}}
+{{/*  name: jackett-config-pvc*/}}
+{{/*  labels:*/}}
+{{/*    app: {{ include "jackett.fullname" . }}*/}}
+{{/*  {{- include "jackett.labels" . | nindent 4 }}*/}}
+{{/*  annotations:*/}}
+{{/*    volume.beta.kubernetes.io/storage-class: "pidramble-nfs"*/}}
+{{/*spec:*/}}
+{{/*  storageClassName: pidramble-nfs*/}}
+{{/*  volumeName: jackett-config*/}}
+{{/*  accessModes:*/}}
+{{/*    - ReadWriteMany*/}}
+{{/*  resources:*/}}
+{{/*    requests:*/}}
+{{/*      storage: 128Mi*/}}
