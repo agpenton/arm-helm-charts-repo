@@ -3,7 +3,17 @@ entries:
   jackett:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-10-11T09:48:43.137244+04:00"
+    created: "2021-10-11T10:23:29.093977+04:00"
+    description: A Jackett Helm chart for Kubernetes
+    digest: 39e10bd774f8ebea72ee9d86c1c27dee0fa2326c04dc0c78f2b228fb1b4b2b3e
+    name: jackett
+    type: application
+    urls:
+    - https://github.com/agpenton/arm-helm-charts-repo/releases/download/jackett-0.1.1/jackett-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-10-11T10:23:28.891674+04:00"
     description: A Jackett Helm chart for Kubernetes
     digest: 8939d6a34e003ff62223b5042e3ccae48bed5e041d41d166350eddc70fb82d76
     name: jackett
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/agpenton/arm-helm-charts-repo/releases/download/jackett-0.1.0/jackett-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-11T09:48:43.137273+04:00"
+generated: "2021-10-11T10:23:29.094029+04:00"
